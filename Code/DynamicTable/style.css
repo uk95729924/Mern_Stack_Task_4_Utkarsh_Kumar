@@ -1,0 +1,112 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    text-align: center;
+    color: #333;
+    background: linear-gradient(135deg, #9aa2ff, #c4e5fa);
+}
+
+/* Header Styling */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #3a3c46;
+}
+
+/* Form Container */
+.form-container {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: linear-gradient(135deg, #518ff2, #afdef3);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    margin: auto;
+}
+
+.form-container h2 {
+    color: #4a4e69;
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 10px;
+    margin: 5px;
+    width: calc(30% - 10px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 1.1rem;
+}
+
+th {
+    background: linear-gradient(135deg, #c3ecb2, #a2d5c6);
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+th:hover {
+    background: linear-gradient(135deg, #a2d5c6, #c3ecb2);
+    transform: scale(1.02);
+}
+
+td {
+    color: #555;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Zebra Striping for Rows */
+tr:nth-child(even) {
+    background: rgba(230, 230, 255, 0.8);
+}
+
+tr:hover {
+    background: rgba(200, 200, 255, 0.5);
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
+
+table {
+    animation: float 2s ease-in-out infinite;
+}
+
+
